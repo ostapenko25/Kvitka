@@ -1,6 +1,6 @@
 # Yulia Kvitka - photographer's personal site
 
-Multipaged adaptive static site for the photograpers's portfolio. Used HTMLC, CSS, Bootstrap for the grid, jQuery for menu animations and lightbox galleries.
+Multipaged adaptive static site for the photograpers's portfolio. Used HTMLC, CSS, Bootstrap for the grid, jQuery for menu animations and lightbox galleries, BEM naming.
 Page list:
 1. Main page (index)
 2. About.
@@ -19,13 +19,13 @@ Current host: http://ykvitka.kl.com.ua
 
 ====================================
 
-Многостраничный адаптивный статичный сайт, представляющий собой личный сайт и портфолио фотографа. Использованы HTMLC, CSS, Bootstrap для сетки, jQuery для анимаций меню  и галереи.
+Многостраничный адаптивный статичный сайт, представляющий собой личный сайт и портфолио фотографа. Использованы HTML, CSS, БЭМ, Bootstrap для сетки, jQuery для анимаций меню и галереи.
 Список страниц:
 1. Главная (index)
 2. About ("Хто я")
 3. Services ("Послуги / Що я можу для вас робити")
 4. Contacts ("Знайдіть мене")
-5. Общая страница фотогалерей.
+5. Общая страница фотогалереи.
 6. Жанровая фотогалерея 1 (портрет).
 7. Жанровая фотогалерея 2 (репортаж).
 8. Жанровая фотогалерея 3 (стрит фото).
