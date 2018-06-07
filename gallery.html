@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Y.Kvitka - Gallery</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="robots" content="index, follow"> 
+        <meta name="description" content="сайт фотографа Yulia Kvitka">
+        <meta title="Y.Kvitka - Gallery">	
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+				
+		<!-- FONTS -->
+		<link href="https://fonts.googleapis.com/css?family=Lobster|Montserrat:400,700,700i&amp;subset=cyrillic,cyrillic-ext" rel="stylesheet"> 
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800&amp;subset=cyrillic" rel="stylesheet">
+		
+		<!-- BOOTSTRAP Latest compiled and minified CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+		<!-- Optional theme -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+		<script	src="https://code.jquery.com/jquery-3.3.1.js"	integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="	crossorigin="anonymous"></script>
+		<!-- Latest compiled and minified JavaScript -->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+		<!-- This page CSS-->
+		<link href="src/css/gallery.css" rel="stylesheet" type="text/css">
+		<link href="src/css/add-menu__.css" rel="stylesheet" type="text/css">
+		
+		<!-- Main CSS-->
+        <link href="favicon.ico" rel="shortcut icon" type="image/x-icon">
+		<link href="src/css/normalize.css" rel="stylesheet" type="text/css"> 
+		<link href="src/css/general.css" rel="stylesheet" type="text/css">		
+		<link href="src/css/mobi-menu__.css" rel="stylesheet" type="text/css">	
+		<link href="src/css/media.css" rel="stylesheet" type="text/css">	
+		<!--[if lt IE 9]>
+		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->   
+    </head>  
+	
+	<body>	
+		<section class="gallery"> 			
+			<div class="container-fluid">
+				<div class="row"> <!-- основной ряд сетки-->					
+					<!-- начало левой колонки-->
+					<div class="gallery__text col-4 col-lg-4 col-md-4 col-sm-12 col-xs-12">
+						<h1 class="text__h1">Дозвольте мені показати</h1>
+						<h2 class="text__h2">Що я можу</h2>
+						<p class="gallery__text-p">Тут ви можете переглянути приклади моїх робіт у різних жанрах.</p>
+					</div>
+					<!-- конец левой колонки-->					
+					<!-- начало правой колонки-->
+					<div class="gallery__main col-md-8 col-sm-12 col-xs-12">			
+						<div class="row"> <!-- ряд правой колонки-->
+							<div class="gallery__menu col-sm-12 col-md-12 col-xs-12">
+							  <ul class="add-menu">
+								<li><a href="index.html" >Головна</a></li>
+								<li><a href="about.html">Хто я</a></li>
+								<li><a href="services.html">Послуги</a></li>
+								<li><a href="gallery.html" class="active">Галерея</a></li>
+								<li><a href="contacts.html">Знайдіть мене</a></li>
+							  </ul>
+							</div>							
+							<div class="gallery__photo col-sm-12 col-md-12 col-xs-12">
+								<div class="gallery__prev gallery__port">
+									<div class="gallery__port-wrap">
+										<a href="gallery-portrait.html">
+										<img src="src/img/gallery__img/gal1.jpg" class="img-responsive" alt="me.jpg"> 
+										</a>
+									</div>								
+									<div class="gallery__name name__port">Портрет</div>
+								</div>
+								<div class="gallery__prev gallery__love">
+									<a href="gallery-reportage.html"><img src="src/img/gallery__img/gal2.jpg" class="img-responsive" alt="me.jpg"></a> 
+									<div class="gallery__name name__port">Репортаж</div>
+								</div>
+								<div class="gallery__prev gallery__street">
+									<a href="gallery-street.html">
+									<img src="src/img/gallery__img/gal3.jpg" class="img-responsive" alt="me.jpg"> 
+									</a>
+									<div class="gallery__name name__port">Стріт фото</div>
+								</div>
+								<div class="gallery__prev gallery__repo">
+									<a href="gallery-love.html">
+									<img src="src/img/gallery__img/gal4.jpg" class="img-responsive" alt="me.jpg"> 
+									</a>
+									<div class="gallery__name name__port">Love story</div>
+								</div>	
+							</div>
+						</div> <!-- конец ряда правой колонки-->	
+					</div> <!-- конец правой колонки-->	
+					<!-- Mobi-menu-->
+					<div class="menu">Меню</div>
+					<nav>
+						<div id="block__01" class="block__reveal"></div>
+						<div id="block__02" class="block__reveal"></div>
+						<div id="block__03" class="block__reveal"></div>
+						<div id="block__04" class="block__reveal"></div>
+						<div class="nav__container">
+							<ul>
+								<li class="nav__link"><a href="index.html">Головна</a></li>
+								<li class="nav__link"><a href="about.html">Хто я</a></li>
+								<li class="nav__link"><a href="services.html">Що я можу для вас зробити</a></li>
+								<li class="nav__link"><a href="gallery.html" class="active">Галерея</a></li>
+								<li class="nav__link"><a href="contacts.html">Знайдіть мене</a></li>
+							</ul>
+						</div>
+					</nav>
+					<main>
+					  <div class="block"></div>
+					  <div class="block"></div>
+					  <div class="block"></div>
+					  <div class="block"></div>
+					</main>
+					<!-- end Mobi-menu-->
+				</div><!-- конец основного ряда-->
+			</div><!-- конец основного контейнера-->
+		</section>
+
+    <script	src="https://code.jquery.com/jquery-3.3.1.js"	integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="	crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.4/TweenMax.min.js"></script>
+	<script src="src/js/mobi-menu.js"></script>
+</body>
+</html>

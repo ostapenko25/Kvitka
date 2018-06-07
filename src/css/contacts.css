@@ -1,0 +1,127 @@
+/*CONTACTS*/
+
+.contacts__text {
+	height: 100vh;
+	background: black;
+	font-family: 'Open Sans', sans-serif;
+	padding-top: 20vh;
+}
+
+.contacts__h2 {
+	color: #c2b59b;
+	font-size: 12px;
+	text-transform: uppercase;
+	font-weight: 600;
+	letter-spacing: 5px;
+	padding-left: 5vw;
+	padding-right: 5vw;
+}
+
+.contacts__p {
+	color: white;
+	font-size: 13px;
+	line-height: 25px;	
+	padding-left: 5vw;
+	padding-right: 5vw;
+}
+
+.contacts__soc {
+	padding: 10px;
+	padding-left: 5vw;
+	padding-right: 0;
+}
+
+.contacts__link {
+	position: relative;
+	color: white;
+	padding: 5px 50px;
+	margin-top: 30px;
+}
+
+.contacts__link:hover{
+	text-decoration: none;
+	color: #c2b59b;
+	transition: all 0.5s ease;
+}
+
+.contacts__link:active {
+	color: white;
+}
+
+.contacts__inst {
+	position: relative;	
+}
+
+.contacts__inst::before {	
+	content: '';
+    position: absolute;
+	top: 0;
+	left: 0;
+	width: 32px;
+	height: 32px;
+	border-radius: 5px;
+	background: #c2b59b url('../../src/img/icons/cont_icons.svg') -2px -85px no-repeat;
+	background-size: 130%;
+}
+
+.contacts__vk::before {
+	content: '';
+    position: absolute;
+	top: 0;
+	left: 0;
+	width: 32px;
+	height: 32px;
+	border-radius: 5px;
+	background: #c2b59b url('../../src/img/icons/cont_icons.svg') -2px -5px no-repeat;	
+	background-size: 125%;
+	
+}
+
+.contacts__em::before {
+	content: '';
+    position: absolute;
+	top: 0;
+	left: 0;
+	width: 35px;
+	height: 30px;
+	border-radius: 5px;	
+	background: #c2b59b url('../../src/img/icons/cont_icons.svg') -5px -50px no-repeat;	
+	background-size: 125%;
+}
+
+.contacts__photos {
+	height: 100vh;
+	overflow: hidden;
+	padding: 0 !important;
+	background:  white;
+}
+
+.contacts__photo-right  {	
+	width: 40%;
+	margin-top: 15vh;
+	margin-bottom: 5vh;
+	margin-left: 5vw;
+	overflow: hidden;	
+}
+
+.contacts__photo-left {	
+	width: 35%;
+	margin-top: 10vh;
+	margin-bottom: 5vh;
+	margin-left: 2vw;
+	position: relative;
+	z-index: 3;	
+}
+
+.contacts__photo-left::before {	
+	content: '';
+    position: absolute;
+	top: -5vh;
+	left: -1vw;
+	height: 100%;
+	background: #c2b59b;
+    z-index: -1;
+    padding: 30%;	
+}
+
+

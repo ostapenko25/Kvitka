@@ -1,0 +1,159 @@
+/*GALLERY*/
+
+.gallery__text {
+	height: 100vh;
+	background: black;
+	font-family: 'Open Sans', sans-serif;
+	padding-left: 2vw;
+	padding-top: 20vh;
+}
+
+.text__h1 {
+	color: white;
+	font-size: 20px;
+	text-transform: lowercase;
+}
+
+.text__h2 {
+	color: #c2b59b;
+	font-size: 12px;
+	text-transform: uppercase;
+	font-weight: 600;
+	letter-spacing: 5px;	
+}
+
+.gallery__text-p {
+	width: 60%;
+	color: white;
+	font-size: 13px;
+	line-height: 25px;	
+	padding-top: 50px;	
+}
+
+.gallery__menu {
+	padding: 0;
+	background:  white;
+}
+
+.gallery__myname {
+	padding-top: 50vh;	
+}
+
+.myname__h1 {
+	font-size: 30px;
+	letter-spacing: 2px;
+	padding-left: 5vw;
+}
+
+.myname__h2 {
+	font-size: 14px;
+	text-transform: uppercase;
+	font-weight: 600;
+	letter-spacing: 2px;
+	color: #c2b59b;
+	padding-left: 5vw;
+}
+
+.gallery__photo {
+	min-height: 70vh;	
+	display: flex;
+	flex-wrap: wrap;
+	position:  relative;
+	box-sizing: border-box;	
+}
+
+.gallery__main {
+	position: relative;
+	height: 90vh;
+}
+
+.gallery__main::after {
+	border-bottom: 50px solid #c2b59b;
+	content: '';
+    position: absolute;
+	bottom: 0;
+	right: 0;
+    width: 40%;
+    z-index: 1;
+    box-sizing: border-box; 
+    padding: 30px;
+}
+
+.gallery__photo img {	
+	height: auto;
+	padding: 0;
+}
+
+.gallery__prev {
+	width: 25%;
+	box-sizing: border-box;		
+}
+
+.gallery__prev img {	
+	filter: grayscale(1);
+	transition: all 0.5s ease;
+}
+
+.gallery__port-wrap{
+	position: relative
+}
+
+.gallery__port-wrap::before {	
+	content: '';
+    position: absolute;
+	bottom: -10%;
+	left: -12%;
+	height: 115%;
+	background: #c2b59b;
+    z-index: -1;
+    padding: 30%;
+}
+
+.gallery__port {	
+	position: absolute;	
+	left: -10%;
+	top: 0;
+	z-index: 5;
+	margin-top: 30px;
+}
+
+.gallery__love {
+	padding: 0;
+	margin-left: 18%;
+	margin-right: 1%;
+	margin-top: 8%;
+}
+
+.gallery__street {
+	padding: 0px;
+	margin-right: 4%;
+	margin-top: 3%;
+}
+
+.gallery__repo {
+	padding: 0px;
+	margin-right: 1%;
+	margin-top: 7%;
+}
+
+.gallery__name {
+	text-align: right;
+	opacity: 0;
+	visibility: hidden;
+	font-size: 18px;
+	font-weight: 400;
+	margin-top: 50px;
+	transition: all 0.5s ease;
+}
+
+.gallery__prev:hover .gallery__name {
+	opacity: 1;
+	visibility: visible;
+	transition: all 0.5s ease;
+	margin-top: 5px;
+}
+
+.gallery__prev img:hover {
+	filter: grayscale(0);
+	transition: all 0.5s ease;
+}

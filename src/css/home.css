@@ -1,0 +1,144 @@
+/*HOME*/
+
+.home {
+	box-sizing: border-box;	
+}
+
+.home__line-left {
+	width: 15vw;
+	height: 90vh;
+	background: #c2b59b;
+	position: absolute;
+	z-index: 5;
+}
+
+.home__line-right {
+	width: 10vw;
+	height: 70vh;
+	background: #c2b59b;
+	position: absolute;
+	right: 30%;
+	bottom: 0;
+	z-index: 1;
+}
+
+.container-fluid {
+	position: relative;
+}
+
+/*Left*/
+.home__circle {
+	height: 100vh;	
+	background: lightgrey;
+	display: flex;
+	justify-content: center;	
+	align-items: center;
+}
+
+.circle-promo {
+	position: relative;
+	box-sizing: border-box;
+	width: 48vw;
+	height: 48vw;
+	border: 1vw solid black;
+	border-radius: 50%;
+	overflow: hidden;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-content: center;	
+	overflow: hidden;
+	z-index: 5;	
+}
+
+.promo-objective {
+	position: absolute;	
+	width: 20vw;
+	height: 20vw;	
+	border: 5px solid black;
+	border-radius: 50%;
+	background: grey url('../../src/img/home__img/main-circle1.png') 0 0 no-repeat;	
+	background-size: cover;	
+	z-index: 10;
+}
+
+.promo-img {
+	width: 23vw;
+	height: 25vw;
+	border: 1vw solid black;
+	background: lightgrey;
+	background-size: cover;
+	filter: grayscale(1);
+}
+
+.promo-img:hover {		
+	cursor: pointer;
+	filter: grayscale(0);	
+	border: 1vw solid black;
+	transition: all 0.5s ease;
+	cursor:  url(../../src/img/icons/cursor.png) 0 0, auto;
+}
+
+.promo-img:hover .promo-name {
+	opacity: 1;
+	transition: all 0.5s ease;
+	cursor:  url(../../src/img/icons/cursor.png) 0 0, auto;
+}
+
+.img1 {	
+	background: grey url('../../src/img/home__img/main-port.jpg') 0 0 no-repeat;	
+	background-size: cover;
+}
+
+.img2 {	
+	background: grey url('../../src/img/home__img/main-street.jpg') 20% 50% no-repeat;	
+	background-size: cover;
+}
+
+.img3 {	
+	background: grey url('../../src/img/home__img/main-love.jpg')no-repeat;
+	background-position: 80% 50%;
+	background-size: cover;
+}
+
+.img4 {	
+	background: grey url('../../src/img/home__img/main-repo.jpg') no-repeat;
+	background-position: 10% 0%;
+	background-size: cover;
+}
+
+.promo-name {
+	z-index: 20;
+	font-size: 25px;
+	color: #8f9966;
+	text-align: center;
+	padding: 10px;
+	font-weight: 400;	
+	opacity: 0;
+	background: white;
+	color: #968f78;
+}
+
+.port-name {
+	margin-top: 75%;
+	margin-left: -35%;	
+}
+
+.street-name {
+	margin-top: 70%;
+	margin-left: 20%;
+}
+
+.repo-name {
+	margin-top: 5%;
+	margin-left: 40%;
+}
+
+.love-name {
+	margin-top: 65%;
+	margin-left: 20%;
+}
+
+
+
+

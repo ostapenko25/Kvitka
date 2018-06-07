@@ -1,0 +1,47 @@
+/*GENERAL*/
+
+/*
+
+Colors:
+
+#c2b59b - бежевый
+#968f78 - темно-бежевый
+#b3bc89 - зеленый
+
+*/
+
+body {    
+    padding:0;
+    margin:0;
+	background: white;
+	font-family: Montserrat, sans-serif;
+	font-size: 14px;
+	cursor:  url(../../src/img/icons/cursor.png) 0 0, auto;
+}
+
+.clearfix {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+a {
+	display: block;
+	cursor:  url(../../src/img/icons/hand.png) 0 0, auto;
+}
+
+a.active {
+	color:  #c2b59b !important;
+} 
+
+img {
+	display: inline-block;
+}
+
+ul {
+	list-style: none;
+}
+
+.vis {
+	visibility: visible !important;	
+}

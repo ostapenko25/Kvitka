@@ -1,0 +1,27 @@
+/*Add-menu*/
+
+.add-menu {	
+	display: flex;
+	flex-wrap:  nowrap;
+	justify-content: center;
+	background: black;
+	margin: 0;
+	padding: 0;
+}
+
+.add-menu a {
+	color: white;
+	list-style: none;
+	padding: 20px;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.add-menu a:hover {
+	color: #c2b59b;
+	text-decoration: none;
+	transition: all 1s ease;	
+}
+
+.add-menu a:active {
+	color: #c2b59b;	
+}

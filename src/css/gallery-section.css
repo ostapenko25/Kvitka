@@ -1,0 +1,57 @@
+body {
+	position: relative
+}
+
+.gal__name {
+	background: black;	
+	color: white;	
+	z-index: 3;
+	width: 10%;
+	height: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+}
+
+.gal__h1 {
+	transform: rotate(-90deg);
+	margin-top: 50vh;
+	font-size: 30px;
+	letter-spacing: 5px;
+	text-transform: uppercase;
+	color: #c2b59b;
+}
+
+.gal__menu {
+	padding: 0;
+	background:  white;
+}
+
+.gal__photos {	
+	display: flex;
+	flex-wrap: wrap;
+	position:  relative;
+	justify-content: center;
+	box-sizing: border-box;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	background: white;	
+}
+
+.gal__photos img {
+	box-shadow: 10px -10px 20px rgba(0,0,0,0.5);
+}
+
+.gal__prev {
+	width: 15%;
+	height: auto;
+	box-sizing: border-box;	
+	margin-top: 20px;	
+	margin-left: 5vw;	
+	transition:  all 0.5s ease;	
+	cursor:  url(../../src/img/icons/hand.png) 0 0, auto;
+}
+
+.gal__prev:hover {
+	transform: scale(1.1);		
+}

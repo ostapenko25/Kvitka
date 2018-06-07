@@ -1,0 +1,73 @@
+/*ABOUT*/
+
+.about__text {
+	height: 100vh;
+	background: black;
+	font-family: 'Open Sans', sans-serif;
+	padding-left: 5vw;
+	padding-right: 5vw;
+	padding-top: 20vh;
+}
+
+.about__quote {
+	color: #c2b59b;
+	font-size: 16px;
+	font-style: italic;
+	margin-top: 30px;
+}
+
+.text__h1 {
+	color: white;
+	font-size: 20px;
+	text-transform: lowercase;
+}
+
+.text__h2 {
+	color: #c2b59b;
+	font-size: 12px;
+	text-transform: uppercase;
+	font-weight: 600;
+	letter-spacing: 5px;	
+}
+
+.text__p {
+	color: white;
+	font-size: 13px;
+	line-height: 25px;	
+}
+
+.about__photo {
+	height: 100vh;
+	overflow: hidden;
+	padding: 0 !important;
+	background:  white;
+}
+
+.about__myname {
+	padding-top: 50vh;	
+}
+
+.myname__h1 {
+	font-size: 30px;
+	letter-spacing: 2px;
+	padding-left: 5vw;
+}
+
+.myname__h2 {
+	font-size: 14px;
+	text-transform: uppercase;
+	font-weight: 600;
+	letter-spacing: 2px;
+	color: #c2b59b;
+	padding-left: 5vw;
+}
+
+.about__myphoto {
+	height: 80vh;	
+	margin-top: 10vh;	
+	overflow: hidden;
+	border-left: 50px solid #c2b59b;
+}
+
+
+

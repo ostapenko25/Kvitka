@@ -1,0 +1,55 @@
+/*Main-menu*/
+
+.home__menu {
+	height: 100vh;	
+	background: black;
+}
+
+.main-menu {
+	margin-top: 20vh;
+	margin-left: 3vw;
+}
+
+.main-menu a {
+	color: white;
+	list-style: none;
+	padding: 20px;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.main-menu a:hover {
+	color: #c2b59b;
+	text-decoration: none;
+	transition: all 0.5s ease;
+	padding-left: 4vw;
+}
+
+.main-menu a:active {
+	color: #c2b59b;	
+}
+
+.main-menu a.active {
+	color:  #c2b59b;
+} 
+
+
+.home__myname {
+	color: white;
+	padding-top: 10vh;
+}
+
+.home__myname h1 {
+	font-size: 30px;
+	letter-spacing: 5px;
+	padding-left: 5vw;
+	color: #968f78;
+}
+
+.home__myname h2 {
+	font-size: 14px;
+	text-transform: uppercase;
+	font-weight: 600;
+	letter-spacing: 2px;
+	color: #c2b59b;
+	padding-left: 5vw;
+}
