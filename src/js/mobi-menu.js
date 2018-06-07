@@ -24,7 +24,6 @@ blockAnimation
 
 menuButton.click(function(e) {
   blockAnimation.reversed() ?
-    blockAnimation.play() : blockAnimation.reverse();		
-    //$(".nav__container").css("visibility","visible");	
-      $('.nav__container').toggleClass('vis');
+    blockAnimation.play() : blockAnimation.reverse();
+    $('.nav__container').toggleClass('vis');
 });
